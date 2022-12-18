@@ -1,0 +1,77 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pp{
+  font-size: 1.3rem;
+}
+
+.m{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/duotone.jpg');
+  background-size: cover;
+}
+
+.imgg{
+ height: 25rem;
+}
+
+.card{
+  width: 18rem;
+ 
+}
+
+.N{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.favorite-btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  border: none;
+  margin: 5px;
+}
+
+.E404{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('images/HTML-404.gif');
+  background-size: cover;
+  background-position-x: 50%;
+
+}
+
+.swal-title{
+  color: black;
+}
+
+@media (min-width: 500px) {
+
+  .Inicio{ width: 20rem; }
+
+}
