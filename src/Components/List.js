@@ -32,7 +32,7 @@ function List({x}) {
       <div className="card-body">
         <h5 className="card-title">{x.original_title}</h5>
         <p className="card-text">{x.overview.substr(1,100)}...</p>
-        <Link to={`/Movies/Details?movieID=${x.id}`} className='btn btn-dark' >Detalles</Link>
+        <Link to={`/Details?movieID=${x.id}`} className='btn btn-dark' >Detalles</Link>
       </div>
     </div>
 

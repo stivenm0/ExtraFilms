@@ -6,7 +6,9 @@ export const All = createContext();
 function Context(props) {
 
   
-const [Fvs, setFvs] = useState(JSON.parse(localStorage.getItem('favs')))
+    const [Fvs, setFvs] = useState(JSON.parse(localStorage.getItem('favs')))
+
+    
 
     if(Fvs===null){
       setFvs([])

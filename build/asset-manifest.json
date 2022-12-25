@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ExtraFilms/build/static/css/main.5503d45f.css",
-    "main.js": "/ExtraFilms/build/static/js/main.816de970.js",
+    "main.js": "/ExtraFilms/build/static/js/main.20ed7401.js",
     "static/media/HTML-404.gif": "/ExtraFilms/build/static/media/HTML-404.fd522f098fee3ec1689f.gif",
     "static/media/duotone.jpg": "/ExtraFilms/build/static/media/duotone.1203df74359f652cc684.jpg",
     "index.html": "/ExtraFilms/build/index.html",
     "main.5503d45f.css.map": "/ExtraFilms/build/static/css/main.5503d45f.css.map",
-    "main.816de970.js.map": "/ExtraFilms/build/static/js/main.816de970.js.map"
+    "main.20ed7401.js.map": "/ExtraFilms/build/static/js/main.20ed7401.js.map"
   },
   "entrypoints": [
     "static/css/main.5503d45f.css",
-    "static/js/main.816de970.js"
+    "static/js/main.20ed7401.js"
   ]
 }

@@ -4,9 +4,7 @@ import Searcher from './Searcher';
 
 function Nav() {
 
-  const exit=()=>{
-    localStorage.removeItem('token');
-  }
+
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
@@ -24,17 +22,11 @@ function Nav() {
         <div className="collapse navbar-collapse " id="contenido">
           <ul className="N nav navbar-nav me-auto mb-2 mb-lg-0 ">
             <li className="nav link">
-              <Link to='/Movies' className="nav-link active">Peliculas</Link>
+              <Link to='/' className="nav-link active">Peliculas</Link>
             </li>
             <li className="nav link">
-              <Link to='/Movies/Favorites' className="nav-link">Favoritos</Link>
+              <Link to='/Favorites' className="nav-link">Favoritos</Link>
             </li>
-            <li className="nav link">
-             <Link to='/' className="nav-link text-danger ms-2" onClick={()=>exit()}>
-              Salir
-            </Link>
-            </li>
-            
           </ul>
         </div>
       </div>
